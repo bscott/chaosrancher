@@ -13,3 +13,7 @@ Running it will kill a service in any stack every 10 minutes by default.
 $ chaosrancher
 ```
 
+or Deploy ChaosRancher in Rancher's Sandbox environment:
+
+[Try Rancher](https://try.rancher.com/login)
+

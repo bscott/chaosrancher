@@ -1,8 +1,26 @@
 hash: b8d08a34f7b28e62759c5ec6dab107cb749792e6393e6e2f82f8622f44f315b8
-updated: 2017-03-24T01:15:32.394039454-07:00
+updated: 2017-03-24T01:28:05.130452781-07:00
 imports:
+- name: github.com/alecthomas/template
+  version: a0175ee3bccc567396460bf5acd36800cb10c49c
+  subpackages:
+  - parse
+- name: github.com/alecthomas/units
+  version: 2efee857e7cfd4f3d0138cc3cbb1b4966962b93a
+- name: github.com/gorilla/websocket
+  version: a91eba7f97777409bc2c443f5534d41dd20c5720
+- name: github.com/pkg/errors
+  version: ff09b135c25aae272398c51a07235b90a75aa4f0
+- name: github.com/rancher/go-rancher
+  version: 939fd85e3c7f06f29e985fd35cb62a281a32d3b0
+  subpackages:
+  - client
 - name: github.com/Sirupsen/logrus
   version: ba1b36c82c5e05c4f912a88eab0dcd91a171688f
+- name: golang.org/x/sys
+  version: 99f16d856c9836c42d24e7ab64ea72916925fa97
+  subpackages:
+  - unix
 - name: gopkg.in/alecthomas/kingpin.v2
   version: e9044be3ab2a8e11d4e1f418d12f0790d57e8d70
 testImports: []

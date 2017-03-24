@@ -2,9 +2,8 @@ package main
 
 import (
 	log "github.com/Sirupsen/logrus"
-	"gopkg.in/alecthomas/kingpin.v2"
-	"https://github.com/rancher/go-rancher/client"
 	"github.com/rancher/go-rancher/client"
+	"gopkg.in/alecthomas/kingpin.v2"
 )
 
 const (

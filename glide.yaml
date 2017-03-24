@@ -1,0 +1,6 @@
+package: github.com/bscott/chaosrancher
+import:
+- package: github.com/Sirupsen/logrus
+  version: v0.11.5
+- package: gopkg.in/alecthomas/kingpin.v2
+  version: v2.2.3

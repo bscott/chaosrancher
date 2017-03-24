@@ -1,7 +1,5 @@
-FROM drmaas/golang-glide-alpine
+FROM devtransition/golang-glide:latest
 
-ADD . /
-WORKDIR /
-RUN glide install
-RUN go run main.go
+ADD . /go/src/app
+CMD ["go", "run", "/go/src/app/main.go"]
 
